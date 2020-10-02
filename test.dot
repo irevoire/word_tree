@@ -1,0 +1,30 @@
+digraph FirstGraph {
+a0 [label=a, color=grey]
+l1 [label=l, color=grey]
+l2 [label=l, color=grey]
+o3 [label=o, color=green]
+f0 [label=f, color=grey]
+r1 [label=r, color=grey]
+o2 [label=o, color=grey]
+m3 [label=m, color=grey]
+a4 [label=a, color=grey]
+g5 [label=g, color=grey]
+e6 [label=e, color=green]
+j0 [label=j, color=grey]
+a1 [label=a, color=grey]
+m2 [label=m, color=grey]
+b3 [label=b, color=grey]
+o4 [label=o, color=grey]
+n5 [label=n, color=green]
+b0 [label=b, color=grey]
+o1 [label=o, color=grey]
+n2 [label=n, color=grey]
+j3 [label=j, color=grey]
+o4 [label=o, color=grey]
+u5 [label=u, color=grey]
+r6 [label=r, color=green]
+a0 -> l1 -> l2 -> o3;
+f0 -> r1 -> o2 -> m3 -> a4 -> g5 -> e6;
+j0 -> a1 -> m2 -> b3 -> o4 -> n5;
+b0 -> o1 -> n2 -> j3 -> o4 -> u5 -> r6;
+}
